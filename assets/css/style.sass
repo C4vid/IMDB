@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap')
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+    font-family: 'Source Sans 3', sans-serif
+.container
+    background-color: #000
+
+.header
+    background-color: #121212 !important
+    font-family: 'Roboto', sans-serif
+    position: relative
+    p
+        color: #fff
+    span
+        color: #30aed5
+    h3
+        color: #fff
+        font-weight: 700
+    
+    &-width
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 10px 324px 
+        gap: 10px
+        
+        &-imdb
+            img
+                width: 64px
+                height: 32px
+        &-menu
+            color: #fff
+            font-size: 16px
+            font-weight: 700
+            display: flex
+            gap: 4px
+            align-items: center
+            justify-content: center
+        &-search
+            display: flex
+            
+            &_lupa
+                background-color: #fff
+                width: 40px
+                height: 32px
+                padding: 5px 15px 
+                border-top-right-radius: 1px solid #000        
+                color: #000
+                
+                
+            &_all
+                width: 58.6px
+                display: flex  
+                justify-content: center
+                align-items: center 
+                background-color: #fff 
+            &_input 
+                width: 661px
+                height: 32px
+                flex: 1
+
+                & input 
+                    width: 100%
+                    height: 100%
+                    padding: 10px
+                    border: none
+                    border-top-right-radius: 3px
+                    background-color: #fff  
+                    
+                
+
+                & input:focus 
+                    outline: none
+                
+
+
+
+            
+
+        &-bookmark
+            display: flex
+            gap: 20px
+         
+        &.fa-solid 
+            color: #fff
+
+.newfilms
+    margin-top: 44px 
+    display: flex
+    align-items: center
+    justify-content: center 
+    background-color: #000  
+    &-left
+        position: relative
+        &_main
+            &_inside
+                position: absolute
+                top: 240px
+                left: 30px  
+                img
+                    width: 165px
+                    height: 245px
+            &_itag
+                color: yellow   
+                font-size: 72px
+                position: absolute
+                top: 240px
+                left: 30px
+    &-right
+        display: flex
+        flex-direction: column
+        gap: 16px   
+        width: 400px
+        h2
+            color: #F5C518
+            font-weight: 600    
+            font-size: 20px
+            padding-left: 16px
+        img 
+            height: 130px      
+            width: 88px
+        span
+            font-size: 14px
+            color: #fff
+       
+        h4
+            font-size: 14px
+            color: #ffffffbb   
+        
+        &-obj
+            display: flex
+            margin-left: 20px
+            gap: 20px
+            &.fa-solid 
+                color: #fff 
+                width: 30px
+            p
+                font-size: 16px
+                color: #fff
+              
+.feature-today
+    background-color: #000
+    display: flex
+    flex-direction: column
+    padding-left: 355px
+    &-header
+        align-items: center
+        justify-content: center 
+        padding: 30px 0    
+        p
+            color:#F5C518 
+            font-size: 32px
+    &-dir
+        display: flex
+        gap: 15px
+        a
+            text-decoration: none
+            color:  #5799EF
+            font-size: 16px
+        p
+            color: #fff
+            font-size: 16px
+
+.bestof
+    padding-top: 40px   
+    padding-left: 355px
+    display: flex
+    flex-direction: column
+    &-header
+        p
+            color: #fff
+            font-size: 28px
+            padding-left: 10px
+            border-left: 3px solid #F5C518 
+            
+        h3
+            color: rgba(255, 255, 255, 0.389)  
+            font-weight: 200 
+            padding: 15px 0
+
+    &-sides
+        display: flex
+        gap: 20px
+    img
+        width: 391px
+        height: 220px
+
+
+.wtw
+    padding: 50px 355px
+    display: flex
+    flex-direction: column
+    &-header
+        display: flex
+        justify-content: space-between
+        padding-bottom: 15px
+        p
+            font-size: 32px
+            font-weight: 500
+            color: #F5C518 
+        h5
+            color:  #5799EF
+    &-offer
+        color: #fff
+        p
+            color: #fff
+            border-left: 3px solid #F5C518
+            padding-left: 12px
+            font-size: 24px
+            font-weight: 600
+    &-main
+        display: flex
+        gap: 10px
+        flex-direction: column
+        text-align: center
+        color: #fff
+        height: 225px
+        justify-content: center
+        align-items: center
+        font-size: 16px
+        &-bttn
+            padding-top: 30px
+            &_b
+                border: none
+                background-color: #141414
+                width: 164px
+                height: 36px
+                color: #fff
+        
+.films
+    display: flex
+    flex-direction: column
+    padding-top: 50px
+    &-header
+        padding: 0 365px 
+        p
+            border-left: 3px solid #F5C518
+            padding-left: 12px
+            color: #fff
+            font-size: 24px
+            font-weight: 600
+        h5
+            color: rgba(255, 255, 255, 0.483)
+            font-size: 16px
+            padding-top: 20px
+    &-img
+        padding-top: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 20px
+
+.mtw
+    padding: 0 355px
+    display: flex
+    flex-direction: column
+    &-header
+        p
+            border-left: 3px solid #F5C518
+            padding-left: 12px
+            font-size: 24px
+            color: #fff
+            font-weight: 600
+        h5
+            color: rgba(255, 255, 255, 0.483)
+            font-size: 18px
+            padding-top: 15px
+    &-bttn
+        display: flex
+        gap: 15px
+        padding-top: 25px
+        &-b
+            width: 290px
+            height: 36px
+            background-color: #000
+            color: #fff
+            border: 3px solid #fff
+
+.e-v
+    p
+        font-weight: 700
+        font-size: 37px
+        color: #F5C518
+        padding: 50px 355px
+    
+.orginals
+    display: flex
+    flex-direction: column
+    
+    &-header  
+        padding-left: 355px
+        p
+            border-left: 3px solid #F5C518
+            font-size: 32px
+            font-weight: 600
+            color: #fff
+        h5
+            color: rgba(255, 255, 255, 0.483)
+            font-size: 18px
+            padding-top: 15px
+    &-main
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 20px
+        padding-top: 30px
+
+
+.primevid
+    padding: 0 355px
+
+    &-header
+        display: flex
+        flex-direction: column
+        padding-bottom: 30px
+        &-bttn
+            &-b
+                background-color: #000
+                border: none
+                border-bottom: 3px solid #F5C518
+                width: 133px
+                height: 48px
+                color: #fff 
+                font-weight: 700
+                &:hover
+                    background-color: #fff
+                    outline: 1px solid #000
+                    font-weight: 700
+                    color: #000
+                    font-weight: 500
+                    transition: all .4s ease-in-out
+
+    &-sections
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+    img
+        width: 185px
+        height: 463px
+    
+.boxoffice
+    padding: 0 355px
+    display: flex
+    flex-direction: column
+    &-header
+        p
+            color: #fff
+            font-size: 24px
+            border-left: 3px solid #F5C518
+            font-weight: 600
+            padding-left: 12px
+        h5
+            color: rgba(255, 250, 250, 0.448)
+            font-size: 16px
+            padding-top: 15px
+            font-weight: 500
+    &-films
+        display: flex
+        &-dir
+            display: flex
+            flex-direction: column
+            width: 630px    
+            &-main
+                display: flex
+                height: 66px
+                &-num
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    gap: 13px
+                    color: #fff
+                    p
+                        border-right: 2px solid #F5C518
+                        padding-right: 8px
+                    h5
+                        font-size: 40px
+                        color: #1f1f1f
+                &-name
+                    padding-left: 10px
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    color: #fff    
+                    &-top
+                        font-size: 18px
+                        
+.morefilms
+    padding: 0 355px
+    display: flex
+    flex-direction: column
+    &-header
+        p
+            color: #fff
+            border-left: 3px solid #F5C518
+            font-size: 24px
+            font-weight: 500
+            padding-left: 12px
+    &-sec
+        display: flex
+        gap: 15px
+        &-it
+            p
+                font-size: 16px
+                color: #fff
+            h5
+                font-size: 16px
+                color: #185eae  
+
+
+.born
+    display: flex
+    flex-direction: column  
+    padding: 50px 355px
+    &-header
+        p
+            color: #fff
+            font-size: 24px
+            font-weight: 500
+            padding-left: 12px
+            border-left: 3px solid #F5C518
+        h5
+            color: rgba(255, 250, 250, 0.448)
+            font-size: 16px
+            padding-top: 15px
+            font-weight: 500
+    &-img
+        display: flex
+        gap: 25px
+        padding-top: 30px
+        &-i
+            color: #fff
+            display: flex
+            flex-direction: column
+            align-items: center
+            p
+                padding-top: 5px
+
+
+.news
+    padding: 50px 355px
+    &-header
+        p
+            color: #fff
+            font-size: 24px
+            font-weight: 500
+            padding-left: 12px
+            border-left: 3px solid #F5C518
+    &-body
+        display: flex
+        color: #fff 
+        img
+            width: 90px
+            height: 133px
+        &-dir
+            display: flex
+            &-text
+                padding: 0 10px 
+                max-width: 400px
+    &-bot
+        padding-top: 20px
+        &-btn1
+            background-color: #000
+            color: #fff
+            border-radius: 50px
+            width: 100px
+            border: 2px solid #fff
+        &-btn2
+            background-color: #000
+            color: #fff
+            border-radius: 50px
+            width: 110px
+            height: 30px
+            border: 1px solid #fff
+    &-footer
+        p
+            padding-top: 40px
+            font-size: 24px
+            color: #fff
+            font-weight: 700
+        h5
+            padding-top: 35px
+            font-size: 20px
+            font-weight: 300
+            color: #fff
+
+.footer
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: #fff
+    &-bttn
+        &-f
+            color: #000
+            background-color: #F5C518
+            font-size: 16px
+            font-weight: 700
+            border-radius: 7px
+            border: none
+            width: 250px
+            height: 40px
+    &-logos
+        display: flex
+        gap: 70px
+        padding-top: 30px
+        font-size: 24px
+    &-text-top
+        display: flex
+        padding-top: 28px
+        gap: 30px
+        p
+            font-size: 24px
+    &-text-bottom
+        display: flex
+        padding-top: 30px
+        gap: 35px
+        p
+            font-size: 24px
+    &-amazon
+        padding-top: 30px
+    &-end
+        padding-top: 30px
+        color: rgba(255, 250, 250, 0.448)
+        font-size: 16px
+        padding-top: 15px
+        font-weight: 500
+
+
+
+
+
+
+
+
